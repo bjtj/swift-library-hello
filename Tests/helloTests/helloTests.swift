@@ -7,6 +7,8 @@ final class helloTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
         XCTAssertEqual(hello().text, "Hello, World!")
+        XCTAssertEqual(greet().text, "Greeting!")
+        
     }
 
     static var allTests = [

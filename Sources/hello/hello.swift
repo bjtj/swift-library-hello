@@ -1,7 +1,10 @@
-struct hello {
+public struct hello {
     var text = "Hello, World!"
 }
 
-struct greet {
+public struct greet {
     var text = "Greeting!"
+
+    public init() {
+    }
 }
