@@ -6,7 +6,7 @@ public struct hello {
 }
 
 public struct greet {
-    var text = "Greeting!"
+    public var text = "Greeting!"
 
     public init() {
     }
