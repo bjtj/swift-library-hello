@@ -1,5 +1,5 @@
 public struct hello {
-    var text = "Hello, World!"
+    public var text = "Hello, World!"
 
     public init() {
     }
